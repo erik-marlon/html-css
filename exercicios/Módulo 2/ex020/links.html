@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* Tira o sublinhado do texto */
+            font-weight: bold; /* Deixa o texto em negrito */
+        }
+
+        a:visited { /* Muda a cor do link que já foi clicado */
+            color: aqua;
+        }
+
+        a:hover {
+            color: black; /* Fica preto ao passar o mouse por cima */;
+            text-decoration: underline; /* Fica Sublinado quando passa o moude por cima */
+        }
+
+        a:active {
+            color: yellow; /* Muda a cor do link quando é clicado */
+        }
+
+        a::before {
+            content: '[ai]';
+        }
+
+        a::after {
+            content: '[link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-01">Repositório GitHub</link></li>
+        <li><a href="https://www.youtube.com/watch?v=oQbRIOxdH_c">Canal do Youtube</link></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Site</link></li>
+    </ul>
+</body>
+</html>
