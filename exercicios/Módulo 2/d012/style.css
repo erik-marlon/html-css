@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'sriracha';
+    src: url(sriracha/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: 'passion-one';
+    src: url(passion-one/PassionOne-Regular.ttf);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h1 {
+    font-family: 'passion-one';
+    font-size: 80px;
+    margin: 0px;
+}
+.autor {
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+}
+.Milton {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    margin: 0%;
+}
+main {
+    font-family: 'sriracha';
+    font-size: 50px;
+}
+.joaninha {
+    background-image: url(joaninha.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-position: right center;
+    box-shadow: inset 6px 6px 6px 6px rgb(71, 70, 70);
+    background-color: ;
+}
