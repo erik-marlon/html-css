@@ -27,6 +27,10 @@ h1 {
     color: white;
     font-weight: bold;
 }
+section {
+    padding: 25px;
+    font-size: 3vw;
+}
 a:hover {
     text-decoration: underline;
 }
